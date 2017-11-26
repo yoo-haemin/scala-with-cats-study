@@ -1,2 +1,8 @@
 *.class
 *.log
+target/
+
+# Ensime specific
+.ensime
+.ensime_cache/
+.ensime_lucene/
