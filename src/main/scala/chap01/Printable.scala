@@ -1,17 +1,18 @@
 package chap01
 
+//Exercise 1.3
 trait Printable[A] {
   def format(a: A): String
 }
 
 object PrintableInstances {
   implicit val stringPrintable = new Printable[String] {
-    override def format(s: String): String =
+    def format(s: String): String =
       s
   }
 
   implicit val intPrintable = new Printable[Int] {
-    override def format(i: Int): String =
+    def format(i: Int): String =
       i.toString
   }
 }
