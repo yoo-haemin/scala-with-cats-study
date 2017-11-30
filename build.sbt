@@ -1,5 +1,5 @@
 name := "scala-with-cats-exercise"
-version := "0.0.1-SNAPSHOT"
+version := "0.0.1"
 
 scalaVersion in ThisBuild := "2.11.12"
 
@@ -14,9 +14,9 @@ scalacOptions ++= Seq(
   "-Ypartial-unification" // allow the compiler to unify type constructors of different arities
 )
 
-libraryDependencies ++= 
-  "org.typelevel" %% "cats-core" % "1.0.0-MF"       ::
-  "com.lihaoyi"   %% "utest"     % "0.5.3" % "test" :: Nil
+libraryDependencies ++=
+  "org.typelevel" %% "cats-core" % "1.0.0-RC1"       ::
+  "com.lihaoyi"   %% "utest"     % "0.6.0" % "test"  :: Nil
 
 testFrameworks += new TestFramework("utest.runner.Framework")
 
