@@ -1,18 +1,18 @@
 package chap01
 
 import utest._
+import PrintableSyntax._
 
 object PrintableSpec extends TestSuite{
   val tests = Tests{
-    "1 should equal 3" - {
-      assert(1 == 3)
-    }
-    'test2 - {
-      1
-    }
-    'test3 - {
-      val a = List[Byte](1, 2)
-      a(10)
+    "it should show  cat" - {
+      val catName = "Kat"
+      val age = 13
+      val color = "blue"
+      val cat = Cat(catName, age, color)
+
+      assert(Printable.format(cat) == s"${catName} is a ${age} year-old ${color} cat")
+      assert(cat.format == s"${catName} is a ${age} year-old ${color} cat")
     }
   }
 }
