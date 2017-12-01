@@ -10,10 +10,17 @@ scalacOptions ++= Seq(
   "-feature",             // warn about misused language features
   "-language:higherKinds",// allow higher kinded types without `import scala.language.higherKinds`
   "-Xlint",               // enable handy linter warnings
-  "-Xfatal-warnings",     // turn compiler warnings into errors
-  "-Ypartial-unification" // allow the compiler to unify type constructors of different arities
+  "-Ypartial-unification",// allow the compiler to unify type constructors of different arities
+  "-Ywarn-unused-import",
+  "-Ywarn-unused"
 )
 
-libraryDependencies += "org.typelevel" %% "cats-core" % "1.0.0-MF"
+libraryDependencies ++= Seq(
+  "org.typelevel" %% "cats-core" % "1.0.0-MF",
+  "com.lihaoyi" %% "utest" % "0.6.0" % "test"
+)
+
+testFrameworks += new TestFramework("utest.runner.Framework")
+
 
 addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.3")
