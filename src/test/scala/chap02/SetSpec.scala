@@ -4,7 +4,7 @@ import utest._
 import MonoidLaw._
 import scala.collection.immutable.Set
 
-//Esercise 2.4
+//Exercise 2.4
 object SetSpec extends TestSuite {
   val tests = Tests {
     val set1 = Set(1, 2, 3)

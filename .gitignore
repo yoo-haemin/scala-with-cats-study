@@ -6,3 +6,12 @@ target/
 .ensime
 .ensime_cache/
 .ensime_lucene/
+
+# Idea
+.classpath
+.idea/
+.project
+.settings
+
+
+# Eclipse
