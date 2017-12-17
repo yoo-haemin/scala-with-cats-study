@@ -7,8 +7,10 @@ target/
 .ensime_cache/
 .ensime_lucene/
 
+# Idea
 .classpath
 .idea/
 .project
-.settings/
+.settings
 
+# Eclipse
