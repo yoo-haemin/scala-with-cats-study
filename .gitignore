@@ -14,3 +14,7 @@ target/
 .settings
 
 # Eclipse
+/bin/
+.cache-main
+.cache-tests
+.worksheet

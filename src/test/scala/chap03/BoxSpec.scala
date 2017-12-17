@@ -28,6 +28,14 @@ object BoxSpec extends TestSuite {
     
     'Codecs - {
       assert(
+        encode(Box(1.3)) == "1.3"
+      )
+      
+      assert(
+        decode[Box[Double]]("1.3") == Box(1.3)
+      )
+      
+      assert(
         encode(Box(1.3)) == encode(1.3)
       )
       

@@ -31,5 +31,4 @@ object Codec {
     dec = { (s: String) => s.toDouble }, 
     enc = { (d: Double) => d.toString }
   )
-  
 }
