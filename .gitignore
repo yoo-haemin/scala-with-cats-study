@@ -6,3 +6,9 @@ target/
 .ensime
 .ensime_cache/
 .ensime_lucene/
+
+.classpath
+.idea/
+.project
+.settings/
+

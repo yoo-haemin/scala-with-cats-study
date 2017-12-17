@@ -16,6 +16,7 @@ scalacOptions ++= Seq(
 
 libraryDependencies ++=
   "org.typelevel" %% "cats-core" % "1.0.0-RC1"       ::
+  "org.typelevel" %% "cats-free" % "1.0.0-RC1"       ::
   "com.lihaoyi"   %% "utest"     % "0.6.0" % "test"  :: Nil
 
 testFrameworks += new TestFramework("utest.runner.Framework")
