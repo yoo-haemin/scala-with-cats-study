@@ -7,7 +7,6 @@ import SuperPos._
 object SuperPosSpec extends TestSuite{
   val tests = Tests{
     "It should add all order" - {
-      print(add(List(Order(10, 20), Order(20, 30))))
       assert(add(List(Order(10, 20), Order(20, 30))) == Order(30, 50))
     }
   }
