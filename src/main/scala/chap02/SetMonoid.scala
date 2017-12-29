@@ -1,7 +1,6 @@
 package chap02
 
 import scala.collection.immutable.Set
-import scala.language.implicitConversions
 
 //Exercise 2.4
 object SetMonoid {

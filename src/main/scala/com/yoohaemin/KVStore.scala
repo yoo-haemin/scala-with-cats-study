@@ -46,7 +46,7 @@ object KVStore extends App {
   } yield v
 
   //Build a compiler for programs of DSL operations.
-  import cats.arrow.FunctionK
+  //import cats.arrow.FunctionK
   import cats.{Id, ~>}
   import scala.collection.mutable
 
