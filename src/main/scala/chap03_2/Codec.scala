@@ -19,7 +19,7 @@ object Codec {
     override def decode(value: String): String = value
   }
 
-  implicit val intCodec = stringCodec.imap(_.toInt, _.toString)
+  implicit val intCodec = stringCodec.imap[Int](_.toInt, _.toString)
 
 
 }
