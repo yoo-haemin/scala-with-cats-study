@@ -31,3 +31,19 @@
 ### 은진
   - 오늘의 공부내용: Essential Scala Chapter 4 (Trait, Sealed Trait)
   - 소감: 새로운걸 많이 배웠다.
+
+
+## 2017년 1월 7일
+### 공통(Cats) 진도
+  - Monad Transformer(Chap 05) 완료
+
+## 2017년 1월 14일
+### 공통(Cats) 진도
+  - Applicative / Semigroupal (Chap 06) 완료
+  - Foldable/Traverse (Chap07) 앞부분
+
+### 용진
+  - 소감: foldable이 나오니까 숨을 돌릴것 같다. 아는거 나와서 좋다.
+
+### 해민
+  - 소감: 항상 모나드보다 더 제약이 적은 Applicative가 Monad 뒤에 나오는게 이상했는데 풀어보니까 그 이유를 알것 같다. 어렵네.
