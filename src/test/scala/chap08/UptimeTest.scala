@@ -3,8 +3,8 @@ package chap08
 import utest._
 import scala.concurrent.Future
 
-object UptimeTest extends TestSuite {
-  val tests = ???
+// object UptimeTest extends TestSuite {
+  //val tests = ???
   // class TestUptimeClient(hosts: Map[String, Int]) extends UptimeClient {
   //   def getUptime(hostname: String): Future[Int] =
   //     Future.successful(hosts.getOrElse(hostname, 0))
@@ -24,4 +24,4 @@ object UptimeTest extends TestSuite {
 
   //   }
   // }
-}
+// }
